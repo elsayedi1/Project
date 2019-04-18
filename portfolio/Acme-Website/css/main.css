@@ -1,0 +1,237 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+}
+
+
+/*container*/
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*header*/
+
+header {
+    background-color: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid #e8491d;
+}
+
+.dark {
+    padding: 15px;
+    color: #fff;
+    background-color: #35424a;
+    margin: 10px 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+
+#logo h1 {
+    margin: 0;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 17px;
+}
+
+.btn1 {
+    height: 38px;
+    background-color: #e8491d;
+    border: none;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.btn1:hover {
+    color: #ccc;
+    transition: 1s;
+}
+
+
+/*.highlight,*/
+
+.highlight,
+header .current {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+    transition: 1s;
+}
+
+
+/*showcase*/
+
+#showcase {
+    height: auto;
+    background: url("../img/showcase.jpg") no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    margin-bottom: 10ps;
+    font-size: 55px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+
+/*Subscription*/
+
+#sub {
+    background-color: #35424a;
+    padding: 15px;
+}
+
+#sub h1 {
+    float: left;
+    color: #fff;
+}
+
+#sub form {
+    float: right;
+    margin-top: 20px;
+}
+
+#sub input {
+    width: 250px;
+    height: 25px;
+    padding: 4px;
+}
+
+
+/*Boxs*/
+
+#boxs {
+    margin-top: 20px;
+}
+
+#boxs .box {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxs p {
+    text-align: justify;
+}
+
+#boxs .box img {
+    width: 90px;
+}
+
+
+/*services*/
+
+ul#services li {
+    background-color: #e6e6e6;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+article#main-col {
+    width: 65%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+aside .quote input,
+aside .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+
+/*footer*/
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e8491d;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/*media queries*/
+
+
+/*media queries*/
+
+@media (max-width:700px) {
+    #logo h1,
+    nav,
+    nav li,
+    #sub h1,
+    #sub form,
+    #boxs .box,
+    article#main-col,
+    aside {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #showcase h1 {
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    header {
+        padding: 5px;
+    }
+    button {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    #sub input {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #sub {
+        padding: 0;
+    }
+    aside .quote input,
+    aside .quote textarea {
+        width: 100%;
+    }
+}

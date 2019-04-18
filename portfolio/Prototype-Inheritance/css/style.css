@@ -1,0 +1,52 @@
+/*universal reset css*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+    width: 976px;
+}
+
+hr {
+    height: 1px;
+    color: #eee;
+    background-color: #eee;
+    margin-top: 20px;
+}
+
+.inheritance1 span {
+    color: #880015;
+}
+
+.container {
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.inheritance1 {
+    margin-top: 20px;
+}
+
+.inheritance img,
+.inheritance1 img {
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.inheritance h2,
+.inheritance1 h2 {
+    background-color: #eee;
+}
+
+.inheritance p,
+.inheritance1 p {
+    font-size: 1.3rem;
+    background-color: #eee;
+    color: #216118;
+}

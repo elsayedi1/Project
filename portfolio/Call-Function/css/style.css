@@ -1,0 +1,46 @@
+ /* Universal css reset*/
+ 
+ * {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ body {
+     background-color: #eee;
+     width: 976px;
+ }
+ 
+ .container {
+     width: 80%;
+     background-color: #fff;
+     margin: auto;
+     padding: 20px;
+     text-align: center;
+ }
+ 
+ .call-function img {
+     width: 70%;
+     margin-bottom: 20px;
+ }
+ 
+ .call-function hr {
+     margin-bottom: 40px;
+ }
+ 
+ .call-function h2 {
+     background-color: #eee;
+ }
+ 
+ .call-function p {
+     font-size: 1.5rem;
+     margin-bottom: 10px;
+     color: #295d22
+ }
+ 
+ .call-function p:nth-child(odd) {
+     background-color: #eee;
+ }
+ 
+ .call-function span {
+     color: #880015;
+ }

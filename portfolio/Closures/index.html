@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Scope</h1>
+        <img src="scope.png" alt="">
+        <p id="test1"></p>
+
+        <button type="button" onclick="myFun()"> Click to return all scope values</button>
+
+
+        <h1>Closures</h1>
+        <h2> excuted inner() outside its scope by calling x(), and it still remembers all variables as if it call it inside the outer() , it remembers [a=100 as global, b=200 as outer() variable and c=300 as locall variable]</h2>
+        <h2>We can utilize closures behavior to create a function with a private variables</h2>
+        <img src="closure.png" alt="">
+
+        <p id="test2"></p>
+        <button type="button" onclick="myFun1()"> Click to return all closure values</button>
+        <h1>Counter</h1>
+        <p id="test3"></p>
+        <button type="button" onclick="myFun2()"> Click for counter</button>
+
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>

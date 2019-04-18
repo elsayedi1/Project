@@ -1,0 +1,37 @@
+/*universal reset css*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+    width: 976px;
+}
+
+.container {
+    width: 80%;
+    background-color: #fff;
+    margin: auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.prototype img {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.prototype hr {
+    margin-bottom: 40px;
+}
+
+.prototype h2 {
+    background-color: #eee;
+}
+
+.prototype p {
+    font-size: 1.5rem;
+    color: #194313
+}

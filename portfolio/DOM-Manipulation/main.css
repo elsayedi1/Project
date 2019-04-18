@@ -1,0 +1,33 @@
+.wrapper {
+    max-width: 987px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+header #title {
+    background-color: #ddd;
+}
+
+ul li.lists {
+    width: 40%;
+    background-color: #fff;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #aaa
+}
+
+.highlight {
+    color: #ff0000;
+}
+
+img {
+    width: 40%;
+}
+
+h1 {
+    text-align: center;
+}

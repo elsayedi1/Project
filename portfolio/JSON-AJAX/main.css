@@ -1,0 +1,60 @@
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            .container {
+                width: 60%;
+                margin: 0 auto;
+                background-color: red;
+            }
+            
+            .main {
+                background-color: #eee;
+                padding: 50px;
+                box-sizing: border-box;
+            }
+            
+            .main h1 {
+                float: left;
+                display: inline-block;
+            }
+            
+            .main:after {
+                display: block;
+                content: "";
+                clear: both;
+            }
+            
+            .main button {
+                float: right
+            }
+            
+            button {
+                width: 50%;
+                padding: 15px 30px;
+                margin-bottom: 10px;
+                background-color: #005772;
+                color: #fff;
+                border: 2px solid;
+                font-size: .8rem;
+            }
+            
+            button:hover {
+                background-color: #1f336f;
+            }
+            
+            #info {
+                padding: 5px;
+                background-color: #fff;
+            }
+            
+            p {
+                border-bottom: 1px solid #eee;
+                padding: 5px;
+                font-size: 1.8rem;
+            }
+            
+            .hide {
+                display: none;
+            }
